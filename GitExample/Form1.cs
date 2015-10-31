@@ -16,5 +16,20 @@ namespace GitExample
         {
             InitializeComponent();
         }
+
+        private void englishButton_Click(object sender, EventArgs e)
+        {
+            greetingLabel.Text = "Hello World!";
+        }
+
+        private void germanButton_Click(object sender, EventArgs e)
+        {
+            greetingLabel.Text = "Hallo Welt!";
+        }
+
+        private void frenchButton_Click(object sender, EventArgs e)
+        {
+            greetingLabel.Text = "Bonjour Monde!";
+        }
     }
 }
