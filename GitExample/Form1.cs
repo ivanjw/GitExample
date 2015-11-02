@@ -31,5 +31,20 @@ namespace GitExample
         {
             greetingLabel.Text = "Bonjour Monde!";
         }
+
+        private void italianButton_Click(object sender, EventArgs e)
+        {
+            greetingLabel.Text = "Ciao Mondo!";
+        }
+
+        private void dutchButton_Click(object sender, EventArgs e)
+        {
+            greetingLabel.Text = "Hallo Wereld!";
+        }
+
+        private void spanishButton_Click(object sender, EventArgs e)
+        {
+            greetingLabel.Text = "Hola Mundo!";
+        }
     }
 }
